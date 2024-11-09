@@ -30,9 +30,9 @@ export class AuthController {
     console.log(`Token created: ${token}`);
 
     // Option 1: Redirect with token as query parameter
-
-    // return res.redirect(`http://fraud-fighters-fe.s3-website-us-east-1.amazonaws.com/auth-callback?token=${token}`);
-    return res.redirect(`http://localhost:4200/auth-callback?token=${token}`);
+    return res.redirect(
+      `${process.env.FRONTEND_URL}/auth-callback?token=${token}`,
+    );
 
     // Option 2: Redirect with token as URL fragment (more secure)
     // return res.redirect(`http://localhost:4200/auth-callback#token=${token}`);
