@@ -13,7 +13,7 @@ A full-stack web application for reporting financial crimes like fraud, money la
 ## Deployment
 
 - The app is deployed:
-  - Frontend: https://project2.joeny.xyz/
+  - Frontend: https://project2.joeny.xyz
 
 ## Features
 
