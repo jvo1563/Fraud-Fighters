@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://zj6lfhgilj.execute-api.us-east-1.amazonaws.com',
+  apiUrl: 'https://fraud-fighters-backend-474907632262.us-central1.run.app',
 };
