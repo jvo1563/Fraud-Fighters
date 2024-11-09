@@ -1,0 +1,28 @@
+button:disabled{
+    background-color: grey;
+}
+
+.buttonError{
+    display: flex;
+    flex-direction: row;
+}
+
+.hoverInvalid{
+    display: none;
+    margin-top: 10px;
+}
+
+.buttonError>button:disabled:hover + .hoverInvalid{
+    display: inline;
+    color:red;
+}
+
+.asterisk{
+    margin-left: 3px;
+    color:red;
+}
+
+.invalidForm{
+    color:red;
+    font-weight: bold;
+}
