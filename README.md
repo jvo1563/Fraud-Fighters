@@ -13,8 +13,7 @@ A full-stack web application for reporting financial crimes like fraud, money la
 ## Deployment
 
 - The app is deployed:
-  - Frontend: http://fraud-fighters-fe.s3-website-us-east-1.amazonaws.com
-  - Backend: https://zj6lfhgilj.execute-api.us-east-1.amazonaws.com
+  - Frontend: https://project2.joeny.xyz/
 
 ## Features
 
